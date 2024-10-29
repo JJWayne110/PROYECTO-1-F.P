@@ -1,6 +1,6 @@
 def main():
     #Encabezado 
-    print("UCAB Elaborado por: XXXXX")
+    print("UCAB Elaborado por: Eliezer Arias, David Amayo, David Vargas, Gabriel Flores y Jassen Sanchez")
 
     # Entrada de datos
     #Primer cliente
@@ -37,6 +37,8 @@ def main():
     PM3=(DI3//12)
 
     #Salida de datos
+    print("")
+    print("CLIENTE 1:")
     #CLIENTE 1
     print("Las letras correspondientes a las iniciales de los nombres y apellidos del Cliente 1 son:", C1)
     print("El numero de 4 digitos correspondiente a la clave de la tarjeta del cliente 1 es:", C1c)
@@ -45,8 +47,9 @@ def main():
     print("El monto de interes de deuda del cliente 1 es:", MI1)
     print("La deuda mas el monto de interes del cliente 1 es:", DI1)
     print("El Pago minimo del cliente 1 es:", PM1)
-
+    print("")
     #CLIENTE 2
+    print("CLIENTE 2:")
     print("Las letras correspondientes a las iniciales de los nombres y apellidos del Cliente 2 son:", C2)
     print("El numero de 4 digitos correspondiente a la clave de la tarjeta del cliente 2 es:", C2c)
     print("El numero indicado correspondiente a la deuda de la tarjeta del cliente 2 es:", C2d )
@@ -54,8 +57,10 @@ def main():
     print("El monto de interes de deuda del cliente 2 es:", MI2)
     print("La deuda mas el monto de interes del cliente 2 es:", DI2)
     print("El Pago minimo del cliente 2 es:", PM2)
+    print("")
 
     #CLIENTE 3
+    print("CLIENTE 3:")
     print("Las letras correspondientes a las iniciales de los nombres y apellidos del cliente 3 son:", C3)
     print("El numero de 4 digitos correspondiente a la clave de la tarjeta del cliente 3 es:", C3c)
     print("El numero indicado correspondiente a la deuda de la tarjeta del cliente 3 es:", C3d )
