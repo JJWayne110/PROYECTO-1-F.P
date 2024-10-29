@@ -3,23 +3,26 @@ def main():
     print("UCAB Elaborado por: XXXXX")
 
     # Entrada de datos
-    print("Indique 4 letras correspondientes a las inciales de sus nombres y apellidos")
+    #Primer cliente
+    print("Indique 4 letras correspondientes a las iniciales de los nombres y apellidos del primer cliente")
     C1=(input()) 
-    print("Indique numero entero positivo de 4 digitos(Todos distintos)correspondiente a la clave de su Tarjeta")
+    print("Indique numero entero positivo de 4 digitos (Todos distintos) correspondiente a la clave de la Tarjeta de credito del primer cliente")
     C1c=int(input())
-    print("Indique 4 o 5 digitos correspondientes a la deuda de su tarjeta de credito")
+    print("Indique numero entero positivo de 4 o 5 digitos correspondiente a la deuda de la tarjeta de credito del primer cliente")
     C1d=int(input())
-    print("Indique 4 letras correspondientes a las inciales de sus nombres y apellidos")
+    #Segundo cliente
+    print("Indique las 4 letras correspondientes a las iniciales de los nombres y apellidos del segundo cliente")
     C2=(input()) 
-    print("Indique numero entero positivo de 4 digitos(Todos distintos)correspondiente a la clave de su Tarjeta")
+    print("Indique numero entero positivo de 4 digitos (Todos distintos) correspondiente a la clave de la Tarjeta de credito del segundo cliente")
     C2c=int(input())
-    print("Indique 4 o 5 digitos correspondientes a la deuda de su tarjeta de credito")
+    print("Indique numero entero positivo de 4 o 5 digitos correspondiente a la deuda de la tarjeta de credito del segundo cliente")
     C2d=int(input())
-    print("Indique 4 letras correspondientes a sus inciales de sus nombres y apellidos")
+    #Tercer Cliente 
+    print("Indique 4 letras correspondientes a las iniciales de los nombres y apellidos del tercer cliente")
     C3=(input()) 
-    print("Indique numero entero positivo de 4 digitos(Todos distintos)correspondiente a la clave de su Tarjeta")
+    print("Indique numero entero positivo de 4 digitos (Todos distintos) correspondiente a la clave de la tarjeta de credito del tercer cliente")
     C3c=int(input())
-    print("Indique 4 o 5 digitos correspondientes a la deuda de su tarjeta de credito")
+    print("Indique numero entero positivo 4 o 5 digitos correspondiente a la deuda de la tarjeta de credito del tercer cliente")
     C3d=int(input())
 
     #Procesamiento de datos 
@@ -34,25 +37,31 @@ def main():
     PM3=(DI3//12)
 
     #Salida de datos
-    print("Las letras correspondientes a las iniciales de sus nombres y apellidos (Cliente 1) son:", C1)
-    print("El numero de 4 digitos correspondiente a la clave de su tarjeta es:", C1c)
-    print("El numero indicado correspondiente a la deuda de su tarjeta es:", C1d )
+    #CLIENTE 1
+    print("Las letras correspondientes a las iniciales de los nombres y apellidos del Cliente 1 son:", C1)
+    print("El numero de 4 digitos correspondiente a la clave de la tarjeta del cliente 1 es:", C1c)
+    print("El numero indicado correspondiente a la deuda de la tarjeta del cliente 1 es:", C1d )
+    print("El Porcentaje de Interés por deuda es fijo y es igual a: 30%")
     print("El monto de interes de deuda del cliente 1 es:", MI1)
-    print("La deuda mas el monto de interes del CLIENTE 1 es:", DI1)
-    print("El Pago minimo del CLIENTE 1 es:", PM1)
+    print("La deuda mas el monto de interes del cliente 1 es:", DI1)
+    print("El Pago minimo del cliente 1 es:", PM1)
 
-    print("Las letras correspondientes a las iniciales de sus nombres y apellidos (Cliente 2) son:", C2)
-    print("El numero de 4 digitos correspondiente a la clave de su tarjeta es:", C2c)
-    print("El numero indicado correspondiente a la deuda de su tarjeta es:", C2d )
+    #CLIENTE 2
+    print("Las letras correspondientes a las iniciales de los nombres y apellidos del Cliente 2 son:", C2)
+    print("El numero de 4 digitos correspondiente a la clave de la tarjeta del cliente 2 es:", C2c)
+    print("El numero indicado correspondiente a la deuda de la tarjeta del cliente 2 es:", C2d )
+    print("El Porcentaje de Interés por deuda es fijo y es igual a: 30%")
     print("El monto de interes de deuda del cliente 2 es:", MI2)
-    print("La deuda mas el monto de interes del CLIENTE 2 es:", DI2)
-    print("El Pago minimo del CLIENTE 2 es:", PM2)
+    print("La deuda mas el monto de interes del cliente 2 es:", DI2)
+    print("El Pago minimo del cliente 2 es:", PM2)
 
-    print("Las letras correspondientes a las iniciales de sus nombres y apellidos (Cliente 3) son:", C3)
-    print("El numero de 4 digitos correspondiente a la clave de su tarjeta es:", C3c)
-    print("El numero indicado correspondiente a la deuda de su tarjeta es:", C3d )
+    #CLIENTE 3
+    print("Las letras correspondientes a las iniciales de los nombres y apellidos del cliente 3 son:", C3)
+    print("El numero de 4 digitos correspondiente a la clave de la tarjeta del cliente 3 es:", C3c)
+    print("El numero indicado correspondiente a la deuda de la tarjeta del cliente 3 es:", C3d )
+    print("El Porcentaje de Interés por deuda es fijo y es igual a: 30%")
     print("El monto de interes de deuda del cliente 3 es:", MI3)
-    print("La deuda mas el monto de interes del CLIENTE 3 es:", DI3)
-    print("El Pago minimo del CLIENTE 3 es:", PM3)
+    print("La deuda mas el monto de interes del cliente 3 es:", DI3)
+    print("El Pago minimo del cliente 3 es:", PM3)
 
 main()
